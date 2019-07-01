@@ -1,0 +1,163 @@
+body {
+	min-width: 350px;
+	position: relative;
+	line-height: 1.6;
+	overflow-x: hidden;
+	padding: 3vw;
+	width: 70%;
+	left: 15%;
+
+}
+html, body {
+	height: 20%;
+	font-family: sans-serif;
+}
+
+.headers {
+	height: 10vw;
+	/*background-color: black;*/
+	/*background-color: #00FFFF;*/
+	background: url(img/Hemmul-collections-11.jpg);
+	background-size: 100%;
+	background-position: center;
+	padding: 15px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;	color: #fff;
+	-webkit-box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.3);
+}
+/*.tov{
+	height: 10vw;
+	min-width: 350px;
+	background-color: black;
+	background-color: #00FFFF;
+	padding: 10vw;
+	width: 10vw;
+	left: 10vw;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;	color: #fff;
+	-webkit-box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.3);
+
+}*/
+
+
+.logo_img {
+	width: 65%;
+}
+
+.cart_logo {
+	width: 5%;
+	position: relative;
+	left: 95%;
+	height: 90%;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+
+}
+
+.menu li {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #255499;
+	transition: all 0.2s;
+	font-family: Arial, sans-serif;
+}
+.menu li a:hover {
+	color: red;
+	transition: all 0.2s
+}
+.main {
+	display: flex;
+ 	/*flex-direction: row;*/
+ 	justify-content: space-between;
+ 	/*align-items: center;*/
+ 	/*width: 1vw;*/
+ 	/*display: inline-block;*/
+}
+
+.text_input {
+	width: 90px;
+
+}
+
+
+.contakt_text {
+	font-family: sans-serif;
+}
+
+.logo_img {
+	width: 65%;
+}
+.niz {
+	padding: 3px;
+	margin-left: 3px;
+	color: #313131;
+	font-size: 13px;
+}
+
+.aside {
+	width: 23%;
+	/*height: 40%;*/
+}
+
+.content {
+	width: 76%;
+
+}
+.reg{
+	width: 76%;
+	padding: 15px;
+
+
+}
+
+.aside, .content {
+	/*padding: 15px;*/
+	/*border-bottom: 1vw solid black;*/
+	/*margin: 3px;*/
+}
+
+.catheg_item {
+	width: 30%;
+	/*float: left;*/
+
+}
+.good {
+	width: 25vw;
+	height: 25vw;
+	overflow: hidden;
+	margin: auto;
+	display: inline-table;
+	background-color: #fff;
+}
+
+.block-image {
+    width: 40%;
+    display: inline-block;
+}
+
+.zakaz{
+	padding-left: 60px;
+}
+
+span{
+	font-size: 1vw;
+}
+
+.text{
+	font-size: 1vw;
+}
